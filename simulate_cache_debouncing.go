@@ -110,7 +110,7 @@ func cacheDebounce(postID int) {
 		}(i)
 	}
 	wg.Wait()
-	fmt.Printf("Time for connection pool completed %d ms\n", time.Since(startTime).Milliseconds())
+	fmt.Printf("Time for cache debounce completed %d ms\n", time.Since(startTime).Milliseconds())
 
 }
 
