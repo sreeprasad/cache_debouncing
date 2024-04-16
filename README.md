@@ -20,7 +20,7 @@ Give permission to postgres-init to execute script to create schema and users
 chmod +x ./postgres-init/*.sh
 ```
 
-start the docker to run the 2 postgres databases
+start the docker to run the postgres databases and redis cache
 
 ```shell
 docker-compose up --build
